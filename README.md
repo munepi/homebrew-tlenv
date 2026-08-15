@@ -16,8 +16,14 @@ This repository contains formulae for use with Homebrew: https://brew.sh
 
 ``` shell
 brew tap munepi/tlenv
-brew install tlenv
+brew trust munepi/tlenv
+brew install munepi/tlenv/tlenv
 ```
+
+Recent versions of Homebrew refuse to load formulae from a third-party tap
+until you mark it as trusted, hence the `brew trust` step. You can review what
+you are trusting in `Formula/` beforehand, and revoke it later with
+`brew untrust --tap munepi/tlenv`.
 
 `tlenv-texlive-install` is a recommended dependency of `tlenv`, so it is
 installed along with `tlenv` unless you pass `--without-tlenv-texlive-install`.
