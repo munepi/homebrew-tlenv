@@ -2,7 +2,7 @@ class TlenvTexliveInstall < Formula
   desc "Install TeX Live versions (tlenv plugin)"
   homepage "https://github.com/munepi/tlenv-texlive-install"
   url "https://github.com/munepi/tlenv-texlive-install/archive/refs/tags/20260809.tar.gz"
-  sha256 "805d644a256d7b7ec66cce0e79ed701fe07529f995aca544b04d0a01ab3e2b01"
+  sha256 "844bf84e21995b5c71a2f1974a438ef79bf945c7b2ad3ad8f6bd6491e31eb99a"
   license "MIT"
   head "https://github.com/munepi/tlenv-texlive-install.git", branch: "master"
 
@@ -23,7 +23,7 @@ class TlenvTexliveInstall < Formula
   end
 
   test do
-    assert_match "texlive-install", shell_output("#{bin}/texlive-install --version")
+    assert_match "texlive-install #{version}", shell_output("#{bin}/texlive-install --version")
     assert_match "current", shell_output("#{bin}/texlive-install --definitions")
   end
 end
