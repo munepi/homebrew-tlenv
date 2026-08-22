@@ -1,8 +1,8 @@
 class TlenvTexliveInstall < Formula
   desc "Install TeX Live versions (tlenv plugin)"
   homepage "https://github.com/munepi/tlenv-texlive-install"
-  url "https://github.com/munepi/tlenv-texlive-install/archive/refs/tags/20260809.tar.gz"
-  sha256 "844bf84e21995b5c71a2f1974a438ef79bf945c7b2ad3ad8f6bd6491e31eb99a"
+  url "https://github.com/munepi/tlenv-texlive-install/archive/refs/tags/20260822.tar.gz"
+  sha256 "9b9b1a3e3c653ee8d5cf45b36e6c1ec76503cbabc22c2d30b7d174a388806833"
   license "MIT"
   head "https://github.com/munepi/tlenv-texlive-install.git", branch: "master"
 

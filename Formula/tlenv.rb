@@ -1,8 +1,8 @@
 class Tlenv < Formula
   desc "TeX Live version manager tool on Unix-like systems"
   homepage "https://github.com/munepi/tlenv"
-  url "https://github.com/munepi/tlenv/archive/refs/tags/v0.2.tar.gz"
-  sha256 "fc41b20f87b4609220c77e0d83d37a40c5b7ca86d078cccc68b4177b5dc1c941"
+  url "https://github.com/munepi/tlenv/archive/refs/tags/v0.3.tar.gz"
+  sha256 "00df099076ffd8fbfca3d52cdd4e216636f40de35085c103bef5424e5a556a0d"
   license "MIT"
   head "https://github.com/munepi/tlenv.git", branch: "master"
 
