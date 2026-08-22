@@ -63,7 +63,6 @@ The following tlenv plugins are not packaged here; clone them into
 `${TLENV_ROOT}/plugins/` as described in the
 [tlenv README](https://github.com/munepi/tlenv#plugins).
 
-* [texlive-install-darwin](https://github.com/munepi/tlenv-texlive-install-darwin)
 * [texlive-install-haranoajifonts](https://github.com/munepi/tlenv-texlive-install-haranoajifonts)
 * [shared-texmflocal](https://github.com/munepi/tlenv-shared-texmflocal)
 * [tlnet-texjporg](https://github.com/munepi/tlenv-tlnet-texjporg)
